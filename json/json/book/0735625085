@@ -1,0 +1,19 @@
+{
+    "age_range": null, 
+    "author": "Microsoft Press", 
+    "description": "Get in-depth training and practice with the skills measured by the core exams for Microsoft Certified IT Professional (MCITP)&#58; Windows Server 2008 Server Administrator certification&#151;all in one box! Covering exams 70-640, 70-642, and 70-646, these three training kits include exam prep and practice tests to help you maximize your performance. You get official Microsoft&#174; study guides, plus practice tests on CD to help you assess your skills. They come packed with the tools and features that exam candidates want most&#151;including in-depth, self-paced training based on final exam content; rigorous, objective-by-objective review; exam tips from expert, exam-certified authors; and customizable testing options. They also provide case scenarios and exercises for skills and expertise that you can apply to the job.Focusing on administering Windows Server 2008, these official study guides cover topics such as configuring, managing, and supporting user and computer accounts, groups, Domain Name System (DNS) zones, client settings, and group policy objects; the new Active Directory&#174; Lightweight Directory Services and Active Directory Rights Management Service; configuring remote access, Network Access Protection (NAP), network authentication, IPv4 and IPv6 addressing, and DNS replication; creating virtual machines; installing server core; planning server roles; maintaining server security; planning data storage, network load balancing, and server backups; managing...", 
+    "format": "Paperback, 2480pp", 
+    "image": "54373127.JPG", 
+    "isbn": "0735625085", 
+    "isbn13": "9780735625082", 
+    "listprice": "$159.99", 
+    "price": "$93.65", 
+    "pub_date": "June 2008", 
+    "publisher": "Microsoft Press", 
+    "rating": "3.5", 
+    "review": null, 
+    "reviewer": null, 
+    "subjects": [], 
+    "title": "MCITP Self-Paced Training Kit (Exams 70-640, 70-642, 70-646): Windows Server 2008 Administrator Core Requirements", 
+    "type": "Paperback"
+}

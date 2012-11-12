@@ -1,0 +1,29 @@
+{
+    "age_range": null, 
+    "author": "Kathy Sierra,Bert Bates", 
+    "description": "Learning a complex new language is no easy task especially when it s an object-oriented computer programming language like Java. You might think the problem is your brain. It seems to have a mind of its own, a mind that doesn't always want to take in the dry, technical stuff you're forced to study.The fact is your brain craves novelty. It's constantly searching, scanning, waiting for something unusual to happen. After all, that's the way it was built to help you stay alive. It takes all the routine, ordinary, dull stuff and filters it to the background so it won't interfere with your brain's real work&#151;recording things that matter. How does your brain know what matters? It's like the creators of the Head First approach say, suppose you're out for a hike and a tiger jumps in front of you, what happens in your brain? Neurons fire. Emotions crank up. Chemicals surge.That's how your brain knows.And that's how your brain will learn Java. Head First Java combines puzzles, strong visuals, mysteries, and soul-searching interviews with famous Java objects to engage you in many different ways. It's fast, it's fun, and it's effective. And, despite its playful appearance, Head First Java is serious stuff&#58; a complete introduction to object-oriented programming and Java. You'll learn everything from the fundamentals to advanced topics, including threads, network sockets, and distributed programming with RMI. And the new. second edition focuses on Java 5.0, the latest...", 
+    "format": "Paperback, 720pp", 
+    "image": "14246652.JPG", 
+    "isbn": "0596009208", 
+    "isbn13": "9780596009205", 
+    "listprice": "$44.95", 
+    "price": "$26.31", 
+    "pub_date": "February 2005", 
+    "publisher": "O'Reilly Media, Incorporated", 
+    "rating": "4.5", 
+    "review": "The Barnes & Noble ReviewHead First Javais a beginning Java primer like you ve never seen before (and believe us, we ve seen plenty). This book makes Java fun. No, that doesn t do it justice. Imagine learning Java from Robin Williams. (The comedian, we mean. If you can imagine him as a trulygreatJava programmer.)Synapses firing, new ideas, new connections, attitude all over the place: That sHead First Java. (Where else can you watch Java objects expose their inner secrets on Java Tabloid TV? Or learn why Lucyreallykeeps her variables private?)Hilarious captioned photos. Text that s actually funny (and we don t mean the kind of  alleged  funny you ve seen in computer books before -- the kind that makes youcringe). Games. Puzzles. Mysteries.  Be the compiler  exercises. Great analogies.And all these goodies weren t bolted on at the end to enliven a deadly narrative or fit a format. They re here to make the ideas come alive. And it works.If you prefer to be lectured, if you prefer a rigid format where you know exactly what to expect every time you turn the page look elsewhere.Head First Javahas a surprise waiting on pretty much every spread. Kathy Sierra, Bert Bates, and the gang at O Reilly figure that people learn best when they re fully engaged. When they re being tickled. When they re on the floor laughing. (And the latest research in cognitive science, neurobiology, and educational psychology backs them up.)In Chapter 1, you ll build your first app -- not Hello World, but your own personal Phrase-O-Matic. Then, it s straight outta main() -- or, as the authors put it,  We re leaving this dusty old procedural town for good.  You ll learn why objects are better through an imaginary competition between Larry, the procedural programmer and Brad, the OO guy (winner gets the cool Aeron chair).Next, it s on to primitive and reference variables. Think of  em as cups. Think of 64 and Double 64 primitives as Starbucks Grande cups. Java cares about type and won t let you put a Giraffe into a Rabbit variable:  What happens when someone tries to ask the so-called Rabbit to hop()? You ll get to know life -- and death -- on the garbage collectible heap. There s a full chapter on object behavior and on encapsulation ( do it or risk humiliation and ridicule ).One big idea at a time, you make it through every Java fundamental. Solving problems with the Java Library APIs. Inheritance. Object-oriented design. Serious polymorphism, and interfaces:  the caffeine in Java.  Constructors. Memory management. Garbage collection. Java math (static methods and variables, math methods, wrappers, and number formatting). Exception handling. GUIs, event handling, layout managers, and Swing components. Object serialization. File I/O. Networking and threads. Even getting your code ready for release (e.g., code organization, packages, executable JARs, and Java Web Start (which launches your application for the first time as a web browser and then runs it on a stand-alone basis).ThroughoutHead First Java,you ll also find answers to the  dumb questions  other books don t deign to answer. Oh, and plenty of  Ready-bake code.  You ll never forget this Java book -- or what you learn from it.Bill CamardaBill Camarda is a consultant, writer, and web/multimedia content developer.  His 15 books includeSpecial Edition Using Word 2000andUpgrading & Fixing Networks for Dummies, Second Edition.", 
+    "reviewer": "From Barnes &amp; Noble", 
+    "subjects": [
+        {
+            "name": "Java (Computer program language)"
+        }, 
+        {
+            "name": "java"
+        }, 
+        {
+            "name": "programming"
+        }
+    ], 
+    "title": "Head First Java", 
+    "type": "Paperback(Second Edition)"
+}

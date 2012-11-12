@@ -1,0 +1,32 @@
+{
+    "age_range": null, 
+    "author": "Steve Krug", 
+    "description": "Five years and more than 100,000 copies after it was first published, it&#39;s hard to imagine anyone working in Web design who hasn&#39;t read Steve Krug&#39;s 'instant classic' on Web usability, but people are still discovering it every day. In this second edition, Steve adds three new chapters in the same style as the original&#58; wry and entertaining, yet loaded with insights and practical advice for novice and veteran alike. Don&#39;t be surprised if it completely changes the way you think about Web design.Three New Chapters!Usability as common courtesy -- Why people really leave Web sitesWeb Accessibility, CSS, and you -- Making sites usable and accessibleHelp! My boss wants me to ______. -- Surviving executive design whims'I thought usability was the enemy of design until I read the first edition of this book. Don&#39;t Make Me Think! showed me how to put myself in the position of the person who uses my site. After reading it over a couple of hours and putting its ideas to work for the past five years, I can say it has done more to improve my abilities as a Web designer than any other book.In this second edition, Steve Krug adds essential ammunition for those whose bosses, clients, stakeholders, and marketing managers insist on doing the wrong thing. If you design, write, program, own, or manage Web sites, you must read this book.' -- Jeffrey Zeldman, author of Designing with Web Standards", 
+    "format": "Paperback, 201pp", 
+    "image": "47161475.JPG", 
+    "isbn": "0321344758", 
+    "isbn13": "9780321344755", 
+    "listprice": "$40.00", 
+    "price": "$23.41", 
+    "pub_date": "August 2005", 
+    "publisher": "New Riders", 
+    "rating": "4.5", 
+    "review": "The Barnes & Noble ReviewWhen it comes to web usability,Don t Make Me Thinkpacks more punch per page than any other book we ve seen. The first edition became an instant classic. We waited five years for a second edition, but it was worth the wait.Krug s principles have aged very well. So, what s new here? First, Krug offers prefabricated emails to your boss, patiently explaining why his/her brainstorm isn t really such a good idea (for instance, why adding visual  sizzle  could be counterproductive). There s a new chapter on building sites that treat users well -- in Krug s words,  behave like a mensch.  There s also an unusually realistic take on accessibility, including five recommendations to follow if you can t revamp your entire site.Thankfully, Krug s humor, brevity, and intelligence remain omnipresent in this edition. Highly recommended -- again.Bill Camarda, from the September 2005Read Only", 
+    "reviewer": "From Barnes &amp; Noble", 
+    "subjects": [
+        {
+            "name": "Design"
+        }, 
+        {
+            "name": "Evaluation"
+        }, 
+        {
+            "name": "Web site development"
+        }, 
+        {
+            "name": "Web sites"
+        }
+    ], 
+    "title": "Don't Make Me Think: A Common Sense Approach to Web Usability", 
+    "type": "Paperback"
+}

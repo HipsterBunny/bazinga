@@ -1,0 +1,53 @@
+{
+    "age_range": "4 to 8", 
+    "author": "Jane O'Connor,Robin Preiss Glasser(Illustrator) ,Aleksey Ivanov(Illustrator) ,Olga Ivanov(Illustrator)", 
+    "description": "Being green is important to Nancy so important that she wants her family to take care of the Earth morning, noon, and night!", 
+    "format": "Paperback, 32pp", 
+    "image": "45522523.JPG", 
+    "isbn": "0061873268", 
+    "isbn13": "9780061873263", 
+    "listprice": "$3.99", 
+    "price": "$3.99", 
+    "pub_date": "February 2010", 
+    "publisher": "HarperCollins Publishers", 
+    "rating": "5", 
+    "review": null, 
+    "reviewer": null, 
+    "subjects": [
+        {
+            "name": "Fiction"
+        }, 
+        {
+            "name": "Vocabulary in fiction"
+        }, 
+        {
+            "name": "Vocabulary"
+        }, 
+        {
+            "name": "Earth Day in fiction"
+        }, 
+        {
+            "name": "Environmental protection in fiction"
+        }, 
+        {
+            "name": "Earth Day"
+        }, 
+        {
+            "name": "Family life"
+        }, 
+        {
+            "name": "Schools in fiction"
+        }, 
+        {
+            "name": "Family life in fiction"
+        }, 
+        {
+            "name": "Environmental protection"
+        }, 
+        {
+            "name": "Schools"
+        }
+    ], 
+    "title": "Fancy Nancy: Every Day Is Earth Day (I Can Read Book Series: Level 1)", 
+    "type": "Paperback"
+}

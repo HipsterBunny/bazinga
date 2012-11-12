@@ -1,0 +1,56 @@
+{
+    "age_range": "For infants or children in preschool", 
+    "author": "Dr. Seuss", 
+    "description": "Back in 1957, Theodor Geisel responded to an article in Life magazine that lamented the use of boring reading primers in schools. Using the pseudonym of  'Dr. Seuss' (Seuss was Geisel's middle name) and only two hundred twenty-three words, Geisel created a replacement for those dull primers: 'The Cat in the Hat.' The instant success of the book prompted Geisel and his wife to found Beginner Books, and Geisel wrote many popular books in this series, including 'Hop on Pop,' 'Fox in Socks,' and 'Green Eggs and Ham.' Other favorite titles in this series are 'Go, Dog, Go!' and  'Are You My Mother?' by P. D. Eastman, 'A Fly Went By,' by Mike McClintock, and 'Put Me in the Zoo,' by Robert Lopshire. These affordable hardcover books combine large print, easy vocabulary, and large, bright illustrations in stories kids will want to read again and again.  Grades 1 - Grades 2.", 
+    "format": "Hardcover, 63pp", 
+    "image": "60453687.JPG", 
+    "isbn": "0394800133", 
+    "isbn13": "9780394800134", 
+    "listprice": "$8.99", 
+    "price": "$8.99", 
+    "pub_date": "March 1960", 
+    "publisher": "Random House Children's Books", 
+    "rating": "4.5", 
+    "review": null, 
+    "reviewer": "From Barnes &amp; Noble", 
+    "subjects": [
+        {
+            "name": "Stories in rhyme"
+        }, 
+        {
+            "name": "Fiction"
+        }, 
+        {
+            "name": "Ficci\u00f3n juvenil"
+        }, 
+        {
+            "name": "Peces"
+        }, 
+        {
+            "name": "Animales caseros"
+        }, 
+        {
+            "name": "Fantasy"
+        }, 
+        {
+            "name": "Cuentos en rima"
+        }, 
+        {
+            "name": "Pets"
+        }, 
+        {
+            "name": "Fishes"
+        }, 
+        {
+            "name": "Juvenile fiction"
+        }, 
+        {
+            "name": "Accessible book"
+        }, 
+        {
+            "name": "Protected DAISY"
+        }
+    ], 
+    "title": "One Fish, Two Fish, Red Fish, Blue Fish", 
+    "type": "Hardcover"
+}
