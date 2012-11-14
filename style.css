@@ -1,10 +1,10 @@
 body {
 	background: white;
 	width: 90%;
-        min-width: 800px;
 	padding: 0;
 	margin: 30px auto;
         color: #444;
+        min-width: 900px;
         /*border-left: 1px solid #999;
         border-right: 1px solid #999;*/
         border-radius: 5px;

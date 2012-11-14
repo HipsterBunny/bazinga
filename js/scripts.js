@@ -331,7 +331,7 @@ $(window).load(function() {
     //--------------------------------------------------------------------------
     /* This hunk of js will grab the "top sellers" from the json file and
      * populate the top sellers table with the data.  */
-    $.getJSON('json/top_sellers.json', function(data) {
+    /*$.getJSON('json/top_sellers.json', function(data) {
         var topSellers = []; // array to store each book
 
         // do this for every category
@@ -363,13 +363,6 @@ $(window).load(function() {
 
                });
 
-             // getJson is asyncronous so it will not time right
-            /*$.getJSON('json/book/'+ this.isbn, function(data) {
-               alert(index+" "+data.price);
-               topSellers[index].price = data.price;
-               topSellers[index].img = "covers/" + data.image;
-
-            });*/
         });
 
 
@@ -390,7 +383,7 @@ $(window).load(function() {
                                      <div><a class="close-bazinga-overlay">x</a></div>\
                                      </div>');
             });
-        });
+        });*/
     }
     //--------------------------------------------------------------------------
     // Determine if on the category page...if so, figure out the category
@@ -400,14 +393,14 @@ $(window).load(function() {
         $('body h1').html(cat);
 
         if (cat != "") {
-            $.getJSON('json/category/' + cat, function(data) {
-
+           // $.getJSON('json/category/' + cat, function(data) {
+                data = categories[cat];
 
                 var booksInCategory = [];
                 var tableStructure = [];
                 // do this for every book
-                $.each(data.books, function() {
 
+                $.each(data, function() {
                     var tempBook = Object.create(bookObject);
                     tempBook.isbn = this.isbn;
                     //alert(tempBook.isbn);
@@ -418,12 +411,14 @@ $(window).load(function() {
 
                 $.each (booksInCategory, function(index) {
                     //isbns += this.isbn + " ";
-
-                    $.ajax({
+                    //alert(this.isbn);
+                    /*$.ajax({
                      async: false,
                      url: 'json/book/'+ this.isbn,
                      dataType: "json",
-                     success: function(data) {
+                     success: function(data) {*/
+                        var data = books[this.isbn];
+                        //alert(books[this.isbn].price)
                         //alert(index+" "+data.price);
                         booksInCategory[index].price = data.price;
                         booksInCategory[index].img = "covers/" + data.image;
@@ -435,9 +430,9 @@ $(window).load(function() {
                         else
                             tableStructure.push("<td></td>");
 
-                     }
+                     //}
 
-                   });
+                   //});
 
                 });
 
@@ -458,7 +453,7 @@ $(window).load(function() {
 
                 });
 
-            });
+            //});
         } else {
             location.href = "index.html";
         }
@@ -469,12 +464,15 @@ $(window).load(function() {
         var theBook = Object.create(bookObject);
         theBook.isbn = urlGetVal("isbn");
 
-        $.ajax({
+
+        /*$.ajax({
                  async: false,
                  url: 'json/book/'+ theBook.isbn,
                  dataType: "json",
-                 success: function(data) {
+                 success: function(data) {*/
                     //alert(index+" "+data.price);
+                    var data = books[theBook.isbn];
+                    //data = jQuery.parseJSON(books[theBook.isbn]);
                     theBook.isbn13 = data.isbn13
                     theBook.title = data.title;
                     theBook.author = data.author;
@@ -487,11 +485,14 @@ $(window).load(function() {
                     theBook.type = data.type;
                     theBook.rating = data.rating;
 
-                    $.each(data.subjects, function() {
-                        theBook.subjects.push(this.name);
-                    });
-                 }
-       });
+
+                    //$.each(data.subjects, function() {
+                    //    theBook.subjects.push(this.name);
+                    //});
+                 /*}
+       });*/
+
+
 
        $("#content").html("<h1>" + theBook.title + " <span>"+ theBook.author +"</span></h1>");
        $("#content").append("<table class='bookDesc'><tr><td ><img src='"+ theBook.img +
@@ -506,8 +507,8 @@ $(window).load(function() {
        $("#content dl").append("<dt><b>Publication Date: </b>" + theBook.pubDate +"</dt>");
        $("#content dl").append("<dt><b>Publisher: </b>" + theBook.publisher +"</dt>");
        $("#content dl").append("<dt><b>Rating: </b>" + theBook.rating +" out of 5 Stars</dt>");
-       if (theBook.subjects.length > 0)
-            $("#content dl").append("<dt><b>Subjects: </b>" + theBook.subjects.join(", ") +"</dt>");
+       //if (theBook.subjects.length > 0)
+            //$("#content dl").append("<dt><b>Subjects: </b>" + theBook.subjects.join(", ") +"</dt>");
        $("#content dl").append("<dt><b>Type: </b>"+ theBook.type +"</dt>");
        $("#content dl").append("<dt><b>ISBN-10: </b>" + theBook.isbn +"</dt>");
        $("#content dl").append("<dt><b>ISBN-13: </b>" + theBook.isbn13 +"</dt>");
@@ -533,7 +534,7 @@ $(window).load(function() {
         $('#categories').html(items.join('')).wrapInner('<ul/>').prepend("<h2>Categories</h2>");
     });*/
     // For CIS255
-    $('#categories').html('<h2>Categories</h2><ul><li><a href="category.html?cat=Fiction">Fiction</a></li><li><a href="category.html?cat=Nonfiction">Nonfiction</a></li><li><a href="category.html?cat=History">History</a></li><li><a href="category.html?cat=Romance">Romance</a></li><li><a href="category.html?cat=Cooking">Cooking</a></li><li><a href="category.html?cat=Gangsters">Gangsters</a></li><li><a href="category.html?cat=Biography">Biography</a></li></ul>');
+    $('#categories').html('<h2>Categories</h2><ul><li><a href="category.html?cat=Fiction">Fiction</a></li><li><a href="category.html?cat=History">History</a></li><li><a href="category.html?cat=Romance">Romance</a></li><li><a href="category.html?cat=Cooking">Cooking</a></li><li><a href="category.html?cat=Gangsters">Gangsters</a></li><li><a href="category.html?cat=Biography">Biography</a></li></ul>');
 
     //--------------------------------------------------------------------------
     /* Run the slideshow */
