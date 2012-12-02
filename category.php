@@ -6,7 +6,7 @@ $.getJSON("api/category.php?cat='.$cat.'", function(data){
   var books = [];
 
   $.each(data, function(key, val) {
-    books.push(\'<li class="span3"><a href="book.php?isbn=\'+val.isbn+\'" class="thumbnail"><img src="covers/\' + val.image + \'"></a></li>\');
+    books.push(\'<li><a href="book.php?isbn=\'+val.isbn+\'" class="thumbnail"><img src="covers/\' + val.image + \'"></a></li>\');
   });
 
   $(\'<ul/>\', {

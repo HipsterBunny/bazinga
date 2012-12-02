@@ -1,11 +1,22 @@
 <?php include("overall_header.php") ?>
 
  <div class="span9">
-   <div class="hero-unit">
-     <h1>Hello, world!</h1>
-     <p>This is a template for a simple marketing or informational website. It includes a large callout called the hero unit and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
-     <p><a class="btn btn-primary btn-large">Learn more &raquo;</a></p>
-   </div>
+	
+	
+   	<div id="myCarousel" class="carousel slide">
+	  <!-- Carousel items -->
+	  <div class="carousel-inner">
+	    <div class="active item"><img src="img/slides/bears.png"></div>
+	    <div class="item"><img src="img/slides/cheetahs.png"></div>
+	    <div class="item"><img src="img/slides/hippos.png"></div>
+	  </div>
+	  <!-- Carousel nav -->
+	  <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+	  <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+	</div>
+
+
+
    <div class="row-fluid">
      <div class="span4">
        <h2>Heading</h2>

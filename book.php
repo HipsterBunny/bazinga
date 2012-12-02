@@ -9,8 +9,8 @@ $.getJSON("api/book.php?isbn='.$isbn.'", function(data){
 	$("#author").html(book.author);
 	$("#cover").attr("src", "covers/"+book.image);
 	$("#desc").html(book.description);
-	$("#listprice").html(book.listprice);
-	$("#price").html(book.price);
+	$("#listprice").html("Only: " + book.listprice);
+	$("#price").html("NOW: " + book.price);
 	$("#details").html("Publication Date: " + book.pub_date + "<br/>" +
 					   "Publisher: "+ book.publisher + "<br/>" +
 					   "Type: " + book.type + "<br/>" +
@@ -34,7 +34,7 @@ $.getJSON("api/book.php?isbn='.$isbn.'", function(data){
 		<div class="pull-right">
 			<h4 id="listprice"></h4>
 			<h3 id="price"></h3>
-			
+			<a class="btn btn-primary btn-large">BUY NOW!</a>
 		</div>
 	  </div>
 	<hr/>

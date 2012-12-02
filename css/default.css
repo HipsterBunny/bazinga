@@ -15,3 +15,8 @@
 #price {
   color: green;
 }
+
+.thumbnails > li {
+height: 300px;
+width: 20%;
+}
