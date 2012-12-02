@@ -1,0 +1,17 @@
+#author {
+  font-weight:400;
+  font-style: italic;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+#listprice {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  text-decoration: line-through;
+  color: red;
+}
+
+#price {
+  color: green;
+}
