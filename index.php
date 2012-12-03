@@ -23,9 +23,9 @@ $.getJSON("api/random.php", function(data){
    	<div id="myCarousel" class="carousel slide">
 	  <!-- Carousel items -->
 	  <div class="carousel-inner">
-	    <div class="active item"><img src="img/slides/bears.png"></div>
-	    <div class="item"><img src="img/slides/cheetahs.png"></div>
-	    <div class="item"><img src="img/slides/hippos.png"></div>
+	    <div class="active item"><img src="img/slides/bootleg.png"></div>
+	    <div class="item"><img src="img/slides/sexii.png"></div>
+	    <div class="item"><img src="img/slides/steal.png"></div>
 	  </div>
 	  <!-- Carousel nav -->
 	  <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
