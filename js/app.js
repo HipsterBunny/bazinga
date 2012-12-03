@@ -54,4 +54,23 @@ window.onload = function() {
     
   });
   
+  $.getJSON("api/cart.php?user=" + sessionStorage.id, function(data){
+    
+    var trs = [];
+
+    $.each(data, function(key, val) {
+      trs.push('<tr><td><img width="80px" src="covers/'+val.image+'"></td><td>'+val.title+'</td><td>'+val.price+'</td><td><a id="cartrm" class="btn btn-small btn-danger" href="api/cartrm.php?&isbn='+val.isbn+'&user='+sessionStorage.id+'">remove</a></td></tr>');
+    });
+    
+    $("#cartTable").html(trs.join(''));
+
+  });
+  
+  $("#cartTable").on("click", "#cartrm", function(e) {
+    e.preventDefault();
+    $(this).parent().parent().hide();
+    $.ajax($(this).attr("href"));
+    console.log($(this).attr("href"));
+  })
+  
 }

@@ -2,8 +2,6 @@
 include("overall_header.php");
 ?>
 
-
-
 <div class="span9">
 	<form class="form-horizontal" action='' method="POST">
 	  <fieldset>

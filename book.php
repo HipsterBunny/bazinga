@@ -16,6 +16,7 @@ $.getJSON("api/book.php?isbn='.$isbn.'", function(data){
 					   "Type: " + book.type + "<br/>" +
 					   "ISBN-10: " + book.isbn + "<br/>" +
 					   "ISBN-13: " + book.isbn13 + "<br/>");
+	$("#buyBtn").attr("href", "cart.php?isbn=" + book.isbn + "&user=" + sessionStorage.id);
  
 });'; 
 ?>
@@ -34,7 +35,7 @@ $.getJSON("api/book.php?isbn='.$isbn.'", function(data){
 		<div class="pull-right">
 			<h4 id="listprice"></h4>
 			<h3 id="price"></h3>
-			<a class="btn btn-primary btn-large">BUY NOW!</a>
+			<a id="buyBtn" href="#" class="btn btn-primary btn-large">BUY NOW!</a>
 		</div>
 	  </div>
 	<hr/>
