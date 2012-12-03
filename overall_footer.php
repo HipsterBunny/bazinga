@@ -5,6 +5,9 @@
 
 <footer>
 <p>&copy; Bazinga Books 2012</p>
+<a href="mailto:djswartz@svsu.edu">Dylan Swartz</a> |
+<a href="mailto:brtebedo@svsu.edu">Brent Tebedo</a> |
+<a href="mailto:dmkuhl1@svsu.edu">Dylan Kuhl</a> 
 </footer>
 
 </div><!--/.fluid-container-->
