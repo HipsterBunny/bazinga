@@ -71,6 +71,16 @@ window.onload = function() {
     $(this).parent().parent().hide();
     $.ajax($(this).attr("href"));
     console.log($(this).attr("href"));
-  })
+  });
+  
+  $("#reviews").on("click", "#reviewBtn", function(e) {
+    e.preventDefault();
+    var text = $("#new_message").val();
+    var isbn = $("#hiddenIsbn").val();
+    $.ajax("api/postreview.php?user=" + sessionStorage.id + "&isbn=" + isbn + "&comment=" + text);
+
+  	$('#blockQuotes').append("<blockquote><p>" + text + "</p><small>" + sessionStorage.fname + "</small></blockquote>");
+  	$("#new_message").val('');
+  });
   
 }
