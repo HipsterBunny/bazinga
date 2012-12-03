@@ -2,7 +2,7 @@ window.onload = function() {
   var fullname = "";
   if(sessionStorage && sessionStorage.email) {
     fullname = sessionStorage.fname + " " + sessionStorage.lname;
-    $("#loggedinUser").html('<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Welcome, ' + fullname + '<b class="caret"></b></a><ul class="dropdown-menu"><li><a id="logout" href="#"><i class="icon-off"></i> Logout</a></li></ul></li>');
+    $("#loggedinUser").html('<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Welcome, ' + fullname + '<b class="caret"></b></a><ul class="dropdown-menu"><li><a id="cart" href="cart.php"><i class="icon-shopping-cart"></i> Cart</a></li><li><a id="logout" href="#"><i class="icon-off"></i> Logout</a></li></ul></li>');
     $("#loggedinUser").removeClass("hidden");
     $("#loggedinUser").addClass("nav");
     
@@ -43,7 +43,7 @@ window.onload = function() {
         sessionStorage.fname = user.fname;
         sessionStorage.lname = user.lname;
         sessionStorage.email = user.email;
-        console.log(user.fname + "logged in");
+        sessionStorage.id    = user.id; 
         window.location.href = "index.php";
       } else {
         console.log("fail");
