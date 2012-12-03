@@ -20,3 +20,7 @@
 height: 300px;
 width: 20%;
 }
+
+.hidden {
+  display: none;
+}

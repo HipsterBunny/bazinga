@@ -14,6 +14,7 @@
 <!-- Placed at the end of the document so the pages load faster -->
 <script src="js/jquery.js"></script>
 <script src="js/bootstrap.js"></script>
+<script src="js/md5.min.js"></script>
 <script src="js/app.js"></script>
 <script type="text/javascript">
 <?php if (isset($inject_js)) echo $inject_js; ?>

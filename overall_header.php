@@ -40,9 +40,11 @@
           </a>
           <a class="brand" href="index.php"><img height="30px" src="img/bolt.png">Bazinga</a>
           <div class="nav-collapse collapse">
-            <p class="navbar-text pull-right">
-              Logged in as <a href="#" class="navbar-link">Username</a>
-            </p>
+            <div id="loginLink" class="navbar-text pull-right">
+              <a href="login.php" class="navbar-link">Login</a>
+            </div>
+			<ul id="loggedinUser" class="hidden pull-right">
+            </ul>
             <ul class="nav">
               <li><a href="index.php">Home</a></li>
               <li><a href="category.php">Browse Books</a></li>

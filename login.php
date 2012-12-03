@@ -2,6 +2,8 @@
 include("overall_header.php");
 ?>
 
+
+
 <div class="span9">
 	<form class="form-horizontal" action='' method="POST">
 	  <fieldset>
@@ -28,7 +30,7 @@ include("overall_header.php");
 	    <div class="control-group">
 	      <!-- Button -->
 	      <div class="controls">
-	        <button class="btn btn-primary">Login</button>
+	        <button id="loginBtn" class="btn btn-primary">Login</button>
 	      </div>
 	    </div>
 	  </fieldset>

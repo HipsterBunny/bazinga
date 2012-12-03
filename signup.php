@@ -61,7 +61,7 @@ if ($p =='newuser') {
 			    $qry->execute(array(':fname'=>$fname,
 				                    ':lname'=>$lname,
 								    ':email'=>$email,
-							    	':pass'=>md5(pass)));
+							    	':pass'=>md5($pass)));
 				
 
 				// $res = $qry->fetchAll();
