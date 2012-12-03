@@ -29,13 +29,13 @@ $.getJSON("api/book.php?isbn='.$isbn.'", function(data){
 	    <img id="cover" class="media-object" src="http://placehold.it/64x64">
 	  </a>
 	  <div class="media-body">
-	    <h2 id="title" class="media-heading">Media heading</h2>
+	    <h2 id="title" class="media-heading">book title</h2>
 		<h4 id="author"></h4>
 	    <p id="desc"></p>
 		<div class="pull-right">
 			<h4 id="listprice"></h4>
 			<h3 id="price"></h3>
-			<a id="buyBtn" href="#" class="btn btn-primary btn-large">BUY NOW!</a>
+			<a id="buyBtn" href="#" class="btn btn-primary btn-large">Add to Cart</a>
 		</div>
 	  </div>
 	<hr/>

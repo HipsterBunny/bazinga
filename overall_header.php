@@ -41,7 +41,7 @@
           <a class="brand" href="index.php"><img height="30px" src="img/bolt.png">Bazinga</a>
           <div class="nav-collapse collapse">
             <div id="loginLink" class="navbar-text pull-right">
-              <a href="login.php" class="navbar-link">Login</a>
+              <a href="login.php" class="navbar-link">Login</a> | <a href="signup.php" class="navbar-link">Create an Account</a>
             </div>
 			<ul id="loggedinUser" class="hidden pull-right">
             </ul>

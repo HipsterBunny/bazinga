@@ -44,7 +44,20 @@ include("overall_header.php");
 		<tr><td colspan='5'><i>No books in yer cart...</i></td></tr>
 	  </tbody>
 	</table>
-	<a href="#" class="btn btn-primary btn-large"> Checkout </a>
+	<a data-toggle="modal" href="#buyModal" class="btn btn-primary btn-large"> Checkout </a>
+</div>
+
+<div id="buyModal" class="modal hide fade">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+    <h3>Checkout</h3>
+  </div>
+  <div class="modal-body">
+    <p>Please mail a check for the total cost of your order to Bazinga Books. Thanks. </p>
+  </div>
+  <div class="modal-footer">
+    <a href="#" data-dismiss="modal" class="btn">Close</a>
+  </div>
 </div>
 
 <?php
