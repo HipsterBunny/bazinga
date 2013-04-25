@@ -4,21 +4,26 @@ import urllib2
 from urllib import urlretrieve
 import os
 import sys
-import re
+import re  # Regular expressions
 import string
+# BeautifulSoup is used (here) to pull data out of HTML and XML files.
 from BeautifulSoup import BeautifulSoup
-import urlparse
+import urlparse 
 import MySQLdb
+# End of Import data
+
 tocrawl = set([sys.argv[1]])
 crawled = set([])
 booklinks = set([])
+
+# Throw flag if ...
 keywordregex = re.compile('<meta\sname=["\']keywords["\']\scontent=["\'](.*?)["\']\s/>')
 linkregex = re.compile('<a\s*href=[\'|"](.*?)[\'"].*?>')
 
-
+# Method fetch_book will fill book[] array with data
 def fetch_book(bookUrl):
-	book = {}
-	img_folder=os.path.abspath(os.curdir)+"/covers/"
+	book = {} # init book array
+	img_folder = os.path.abspath(os.curdir)+"/covers/" # define path for (current dir) for the cover pics.
 	try:
 		soup = BeautifulSoup(urllib2.urlopen(bookUrl).read())
 	except:
